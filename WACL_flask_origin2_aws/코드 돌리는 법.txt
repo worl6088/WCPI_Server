@@ -1,0 +1,15 @@
+1. 경로설정
+- testData_pubisher.py 에서 14번쨰 줄에 jot.json파일이 존재하는 경로를 설정해주기
+- pic_path(전송되는 이미지를 저장할 폴더) 경로 지정해주기, 없으면 생성해서 만들어주면됌 
+
+2. mqtt 설정  
+모스키토 설치-> 아마 설치하면 pc-> c드라이브 -> programfiles -> mosquitto 파일에 생성될것 
+cmd 창으로 mosquitto 디렉토리안에 들어가서
+mosquitto.exe -p 8002 -v 
+치면 8002번포트로 브로커가 활성화 될거임 
+
+3. 실행  
+- 이제 app.py를 실행하면 터미널에 브라우저 url이 나올텐데 클릭해서 창열어두기 
+- testData_publisher.py 실행 하면 데이터가 실시간으로 들어오는거 확인가능 
+
+4. html파일은 다른거 만질것 없고, showup2만 손보면될듯 ㅇㅇ 부탁한다!   
