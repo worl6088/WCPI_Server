@@ -1,6 +1,5 @@
 1. 경로설정
 - testData_pubisher.py 에서 14번쨰 줄에 jot.json파일이 존재하는 경로를 설정해주기
-- pic_path(전송되는 이미지를 저장할 폴더) 경로 지정해주기, 없으면 생성해서 만들어주면됌 
 
 2. mqtt 설정  
 모스키토 설치-> 아마 설치하면 pc-> c드라이브 -> programfiles -> mosquitto 파일에 생성될것 
